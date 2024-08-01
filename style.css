@@ -4,6 +4,19 @@
     box-sizing: border-box;
     font-family: WF Visual Sans Text, sans-serif;
 }
+
+
+:root {
+  --main-color:#0ABF1F;
+}
+
+h1{
+  color: var(--main-color);
+}
+
+a{
+  text-decoration: none;
+}
 /*---common---*/
 
 .center{
@@ -222,6 +235,18 @@
     
   }
 
+
+ /*----------------------------------Footer-----------------------------------------*/
+  
+.footer{
+  gap:120px;
+  width: 100%;
+}
+
+.side-footer{
+  font-size: 10vh;
+}
+
   .side-by-side {
     display: flex;
     align-items: center;
@@ -232,4 +257,17 @@
   .side-by-side img{
     height: 50px;
     width: 50px;
+  }
+
+  .r-sider-footer {
+    align-items: flex-start;
+    gap: 50px;
+  }
+
+  .r-sider-footer ul{
+    list-style: none;
+  }
+
+  .r-sider-footer li{
+    padding: 8px 0px;
   }
