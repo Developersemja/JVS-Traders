@@ -329,3 +329,68 @@ body {
   background-color: gainsboro;
   border-radius: 15px;
 }
+
+/*---------------------------------- Mobile View -----------------------------------------*/
+
+@media screen and (max-width:800px){
+
+  .main-header h1 {
+    font-size: 6vh;
+  }
+  .content img{
+    height: 35vh;
+  }
+  .menu ul {
+    gap: 10px;
+    font-size: 12px;
+  }
+  .gif-offer img {
+    height: 20vh;
+  }
+  .about{
+    flex-direction: column;
+  }
+  .about h1 {
+    font-size: 8vh;
+  }
+  .about p {
+    font-size: 2vh;
+    line-height: 4vh;
+  }
+  .marquee span {
+    font-size: 3rem;
+  }
+  .Category h1{
+    font-size: 8vh;
+  }
+  .category-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3vh 6vh;
+  }
+  .listing img {
+    height: 25vh;
+  }
+  .offer-image img{
+    height: 25vh;
+  }
+  .gint{
+    flex-direction: column;
+    width: 100%;
+  }
+  .map {
+    width: 100%;
+  }
+  .contact {
+      width: 100%;
+  }
+  .contact-heading h1 {
+    font-size: 8vh;
+  }
+  .contact form {
+    width: 98%;
+    padding: 2vh;
+  }
+  .contact-form label {
+    font-size: 3vh;
+  }
+}
