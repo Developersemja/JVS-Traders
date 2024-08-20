@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style/style.css" />
     <title>JVS TRADERS</title>
     <link
       rel="stylesheet"
@@ -25,9 +25,17 @@
 
     <section>
       <div class="prd-details center">
-        <div class="slider center">
-          <img src="/2980692_15257.jpg" alt="" />
+        <div class="slider center swiper mySwiper">
+          <div class="swiper-wrapper">
+            <img src="/Image/offer02.jpg" class="swiper-slide" alt="" />
+            <img src="/Image/offer02.jpg" class="swiper-slide" alt="" />
+            <img src="/Image/offer02.jpg" class="swiper-slide" alt="" />
+            <img src="/Image/offer02.jpg" class="swiper-slide" alt="" />
+            <img src="/Image/offer02.jpg" class="swiper-slide" alt="" />
+            <img src="/Image/offer02.jpg" class="swiper-slide" alt="" />
+          </div>
         </div>
+
         <div class="details center">
           <h1>Title Of The Product</h1>
           <p>A small description about the product will be displayed here</p>
@@ -79,11 +87,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        
-      });
-    </script>
+    <script src="/Script/pd.js"></script>
   </body>
 </html>
