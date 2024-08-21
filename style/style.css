@@ -332,12 +332,11 @@ body {
 
 /*---------------------------------- Mobile View -----------------------------------------*/
 
-@media screen and (max-width:800px){
-
+@media screen and (max-width: 600px) {
   .main-header h1 {
     font-size: 6vh;
   }
-  .content img{
+  .content img {
     height: 35vh;
   }
   .menu ul {
@@ -347,7 +346,7 @@ body {
   .gif-offer img {
     height: 20vh;
   }
-  .about{
+  .about {
     flex-direction: column;
   }
   .about h1 {
@@ -356,12 +355,16 @@ body {
   .about p {
     font-size: 2vh;
     line-height: 4vh;
+    text-align: justify;
   }
   .marquee span {
     font-size: 3rem;
   }
-  .Category h1{
+  .Category h1 {
     font-size: 8vh;
+  }
+  .Category {
+    margin-bottom: 5vh;
   }
   .category-list {
     grid-template-columns: repeat(2, 1fr);
@@ -370,18 +373,19 @@ body {
   .listing img {
     height: 25vh;
   }
-  .offer-image img{
+  .offer-image img {
     height: 25vh;
   }
-  .gint{
+  .gint {
     flex-direction: column;
     width: 100%;
+    margin-bottom: 5vh;
   }
   .map {
     width: 100%;
   }
   .contact {
-      width: 100%;
+    width: 100%;
   }
   .contact-heading h1 {
     font-size: 8vh;
@@ -393,4 +397,91 @@ body {
   .contact-form label {
     font-size: 3vh;
   }
+  .footer {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .side-footer {
+    font-size: 4vh;
+  }
+  .r-sider-footer {
+    align-items: center;
+    flex-direction: column;
+  }
+  .r-sider-footer ul {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu {
+    margin-bottom: 3vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .prd-details {
+    flex-direction: column;
+    height: auto;
+  }
+  .slider {
+    width: 100%;
+  }
+  .details {
+    width: 100%;
+  }
+  .details li {
+    margin-bottom: 10px;
+  }
+}
+
+/*---------------------------------- Tablet View -----------------------------------------*/
+
+@media screen and (max-width: 800px) {
+  .main-header h1 {
+    font-size: 14vh;
+  }
+  .gif-offer img {
+    height: 30vh;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .about h1 {
+    font-size: 10vh;
+  }
+  .about p {
+    font-size: 2vh;
+    line-height: 5vh;
+    text-align: justify;
+}
+.marquee span{
+  font-size: 6rem;
+}
+.Category h1 {
+  font-size: 10vh;
+}
+.category-list {
+ 
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3vh 8vh;
+}
+.contact-heading h1 {
+  font-size: 6vh;
+}
+.contact form {
+  gap: 10px;
+  width: 336px;
+}
+.contact-form label {
+  font-size: 3vh;
+}
+.footer {
+  gap: 10px;
+  flex-direction: column;
+}
+.side-footer {
+  font-size: 6vh;
+}
 }
