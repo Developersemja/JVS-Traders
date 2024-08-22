@@ -332,7 +332,7 @@ body {
 
 /*---------------------------------- Mobile View -----------------------------------------*/
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 301px)  and (max-width: 600px) {
   .main-header h1 {
     font-size: 6vh;
   }
@@ -420,7 +420,7 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 301px) and (max-width: 600px) {
   .prd-details {
     flex-direction: column;
     height: auto;
@@ -438,7 +438,7 @@ body {
 
 /*---------------------------------- Tablet View -----------------------------------------*/
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 701px) and (max-width: 800px) {
   .main-header h1 {
     font-size: 14vh;
   }
@@ -485,7 +485,9 @@ body {
   }
 }
 
-@media screen and (max-width: 1500px) {
+/*---------------------------------- laptop View -----------------------------------------*/
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
   .about h1 {
     font-size: 15vh;
 }
