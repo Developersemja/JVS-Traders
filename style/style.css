@@ -392,7 +392,7 @@ body {
   }
   .contact form {
     width: 98%;
-    padding: 2vh;
+    
   }
   .contact-form label {
     font-size: 3vh;
@@ -418,6 +418,10 @@ body {
   .menu {
     margin-bottom: 3vh;
   }
+  .r-sider-footer {
+   
+    gap: 15px;
+}
 }
 
 @media screen and (min-width: 301px) and (max-width: 600px) {
@@ -433,6 +437,8 @@ body {
   }
   .details li {
     margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 12px;
   }
 }
 
@@ -523,4 +529,10 @@ body {
 .details li{
   margin-bottom: 10px;
 }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1500px) {
+  .category-list {
+      gap: 8vh 25vh;
+  }
 }
