@@ -95,6 +95,7 @@ a {
 .about p {
   font-size: 3vh;
   line-height: 6vh;
+  text-align: justify;
 }
 
 .about {
