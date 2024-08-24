@@ -9,15 +9,12 @@
   --main-color: #0abf1f;
 }
 
-
 h1 {
   color: var(--main-color);
 }
 
 a {
   text-decoration: none;
-  color: inherit;
-
 }
 /*---common---*/
 
@@ -44,10 +41,6 @@ a {
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-}
-.menu li{
-  font-size: 2vh;
-  font-weight: 600;
 }
 
 .main-header {
@@ -351,11 +344,6 @@ body {
     gap: 10px;
     font-size: 12px;
   }
-}
-.menu li {
-    font-size: 12px;
-    font-weight: 600;
-}
   .gif-offer img {
     height: 20vh;
   }
