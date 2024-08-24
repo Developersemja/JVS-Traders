@@ -44,7 +44,7 @@ a {
   gap: 20px;
 }
 
-.menu li{
+.menu li {
   font-weight: 600;
 }
 
@@ -52,7 +52,7 @@ a {
   flex-direction: column;
 }
 
-.main-header p{
+.main-header p {
   font-size: 25px;
   font-weight: 600;
 }
@@ -71,7 +71,7 @@ a {
   margin-top: 5%;
 }
 
-.prd-content p{
+.prd-content p {
   font-weight: 600;
 }
 
@@ -197,6 +197,7 @@ a {
 .gif-offer img {
   width: 100%;
   height: 40vh;
+  border-radius: 8px;
 }
 /*----------------------------------Contact-----------------------------------------*/
 
@@ -211,7 +212,7 @@ a {
   justify-content: center;
   flex-direction: column;
   gap: 20px;
-  width: 700px;
+  width: 800px;
 }
 
 .map {
@@ -264,7 +265,6 @@ a {
   font-size: 15px;
   letter-spacing: 2px;
 }
-
 
 /*----------------------------------Footer-----------------------------------------*/
 
@@ -356,7 +356,7 @@ body {
 
 /*---------------------------------- Mobile View -----------------------------------------*/
 
-@media screen and (min-width: 301px)  and (max-width: 600px) {
+@media screen and (min-width: 301px) and (max-width: 600px) {
   .main-header h1 {
     font-size: 6vh;
   }
@@ -407,15 +407,15 @@ body {
   }
   .map {
     width: 100%;
-    DISPLAY: flex;
-    FLEX-DIRECTION: column;
-    ALIGN-ITEMS: center;
-    JUSTIFY-CONTENT: CENTER;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: CENTER;
   }
-  .map iframe{
-    padding: 2VH;
+  .map iframe {
+    padding: 2vh;
   }
-  .side-by-side{
+  .side-by-side {
     text-align: center;
   }
   .contact {
@@ -426,12 +426,11 @@ body {
   }
   .contact form {
     width: 98%;
-    
   }
   .contact-form label {
     font-size: 2vh;
   }
-  .contact-form input{
+  .contact-form input {
     font-size: 2vh;
   }
   .footer {
@@ -439,7 +438,7 @@ body {
     gap: 0px;
   }
   .side-footer {
-    font-size: 4vh;
+    font-size: 28px;
   }
   .r-sider-footer {
     align-items: center;
@@ -456,14 +455,27 @@ body {
     margin-bottom: 3vh;
   }
   .r-sider-footer {
-   
     gap: 15px;
-}
-.contact-form{
-  display: flex;
+  }
+  .contact-form {
+    display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .main-header p {
+    font-size: 12px;
+  }
+  .contact-form textarea {
+    font-size: 2vh;
+  }
+  .contact form {
+    width: 380px;
 }
+.menu li {
+  font-weight: 600;
+  font-size: 10px;
+}
+  
 }
 
 @media screen and (min-width: 301px) and (max-width: 600px) {
@@ -482,6 +494,59 @@ body {
     border-radius: 8px;
     padding: 12px;
   }
+}
+
+@media screen and (min-width: 301px) and (max-width: 378px) {
+  .contact-heading h1 {
+      font-size: 7vh;
+  }
+  .listing  h2{
+    font-size: 20px;
+  }
+  .contact-form textarea {
+    font-size: 2vh;
+  }
+  .contact form {
+    width: 340px;
+}
+.gif-offer img {
+  height: 17vh;
+}
+}
+
+@media screen and (min-width: 301px) and (max-width: 320px) {
+  .content img {
+    height: 22vh;
+}
+.prd-content h2{
+  font-size: 16px;
+}
+.gif-offer img {
+  height: 15vh;
+}
+.about p {
+  font-size: 12px;
+  line-height: 3vh;
+  text-align: justify;
+}
+.about h1 {
+  font-size: 6vh;
+}
+.Category h1 {
+  font-size: 6vh;
+}
+.listing h2 {
+  font-size: 17px;
+}
+.contact form {
+  width: 300px;
+}
+.contact-heading h1 {
+  font-size: 6vh;
+}
+.side-footer {
+  font-size: 25px;
+}
 }
 
 /*---------------------------------- Tablet View -----------------------------------------*/
@@ -531,6 +596,12 @@ body {
   .side-footer {
     font-size: 6vh;
   }
+  .r-sider-footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }
 
 /*---------------------------------- laptop View -----------------------------------------*/
@@ -538,43 +609,49 @@ body {
 @media screen and (min-width: 1000px) and (max-width: 1500px) {
   .about h1 {
     font-size: 15vh;
-}
-.marquee span {
-  font-size: 12rem;
-}
-.Category h1 {
-  font-size: 15vh;
-}
-.category-list {
- 
-  gap: 8vh 13vh;
-}
-.listing img {
-  height: 35vh;
+  }
+  .marquee span {
+    font-size: 12rem;
+  }
+  .Category h1 {
+    font-size: 15vh;
+  }
+  .category-list {
+    gap: 8vh 13vh;
+  }
+  .listing img {
+    height: 35vh;
+  }
+  .side-footer {
+    font-size: 5vh;
+  }
+  .contact-heading h1 {
+    font-size: 9vh;
+  }
+  .contact form {
+    width: 450px;
+  }
+  .contact-form label {
+    font-size: 4vh;
+  }
+  .about p {
+    font-size: 3vh;
+    line-height: 5vh;
+  }
+  .details li {
+    margin-bottom: 10px;
+  }
+  .footer {
+    gap: 100px;
+
 }
 .side-footer {
-  font-size: 5vh;
-}
-.contact-heading h1 {
-  font-size: 9vh;
-}
-.contact form {
-  width: 450PX;
-}
-.contact-form label {
-  font-size: 4vh;
-}
-.about p {
   font-size: 3vh;
-  line-height: 5vh;
-}
-.details li{
-  margin-bottom: 10px;
 }
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1500px) {
   .category-list {
-      gap: 8vh 25vh;
+    gap: 8vh 25vh;
   }
 }
