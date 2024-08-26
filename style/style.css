@@ -44,8 +44,44 @@ a {
   gap: 20px;
 }
 
-.menu li {
+.BTN01 {
+  font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.BTN01:focus,
+.BTN01:hover {
+  color: var(--main-color);
+}
+
+.BTN01:focus:after,
+.BTN01:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.BTN01:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: var(--main-color);
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
 }
 
 .main-header {
