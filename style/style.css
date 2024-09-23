@@ -169,7 +169,7 @@ a {
   margin-top: 5%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10vh 30vh;
+  gap: 6vh 12vh;
 }
 
 .listing {
@@ -179,6 +179,7 @@ a {
 
 .listing img {
   height: 40vh;
+  width: 40vh;
 }
 /*----------------------------------Offer Image-----------------------------------------*/
 
